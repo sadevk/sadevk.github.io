@@ -10,7 +10,7 @@ export default function Home() {
             className="md:w-[600px] md:h-[600px] w-96 h-96"
           ></iframe>
           <h1 className="md:text-3xl text-xl">
-            Hi! I'm Sadev, Welcome to my Page!
+            Hi! I&apos;m Sadev, Welcome to my Page!
           </h1>
         </div>
       </div>
@@ -25,8 +25,8 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center gap-10 md:w-2/3 py-5">
           <h1 className="md:text-6xl text-3xl md:mb-10">WHO AM I?</h1>
           <p className="text-lg text-justify">
-            Hello! I'm Sadev Kaveesha, a seasoned Software Developer with two
-            years of industry experience. I specialize in a diverse range of
+            Hello! I&apos;m Sadev Kaveesha, a seasoned Software Developer with
+            two years of industry experience. I specialize in a diverse range of
             technologies and possess strong organizational and management
             skills.
           </p>
@@ -98,18 +98,20 @@ export default function Home() {
           ></iframe>
         </div>
         <div className="flex flex-col items-center justify-center gap-10 md:w-2/3 py-5">
-          <h1 className="md:text-6xl text-3xl md:mb-10">LET'S COLLABORATE</h1>
+          <h1 className="md:text-6xl text-3xl md:mb-10">
+            LET&apos;S COLLABORATE
+          </h1>
           <p className="text-lg text-justify">
-            Whether you're a business looking to enhance your digital presence
-            or an entrepreneur with a groundbreaking idea, I am ready to
-            collaborate. Let's turn your concepts into reality through strategic
-            and innovative software development.
+            Whether you&apos;re a business looking to enhance your digital
+            presence or an entrepreneur with a groundbreaking idea, I am ready
+            to collaborate. Let&apos;s turn your concepts into reality through
+            strategic and innovative software development.
           </p>
           <p className="text-lg text-justify">
             Feel free to explore my portfolio to witness the range and quality
-            of projects I've undertaken. If you're ready to embark on a
-            development journey, let's connect! I look forward to bringing your
-            ideas to life.
+            of projects I&apos;ve undertaken. If you&apos;re ready to embark on
+            a development journey, let&apos;s connect! I look forward to
+            bringing your ideas to life.
           </p>
           <h1 className="md:text-3xl text-xl md:my-10">REACH ME</h1>
           <div className="flex md:flex-row flex-col gap-5" id="contact">
