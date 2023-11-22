@@ -9,8 +9,8 @@
 }
 a {
   transition: 100ms;
+  text-underline-offset: 1rem;
 }
 a:hover {
   text-decoration: underline;
-  text-underline-offset: 1rem;
 }
