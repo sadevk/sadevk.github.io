@@ -3,7 +3,7 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <main className="w-screen">
-      <div className="w-full flex md:flex-row flex-col md:h-full" id="home">
+      <div className="w-full flex md:flex-row flex-col h-screen" id="home">
         <div className="flex flex-col items-center justify-center w-full">
           <iframe
             src="https://lottie.host/?file=d5fee8e3-8309-40e6-878f-f4c7adf7fc90/GalFsvTskB.lottie"
@@ -14,7 +14,10 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <div className="w-full flex md:flex-row flex-col md:p-20 p-10" id="about">
+      <div
+        className="w-full flex md:flex-row flex-col md:p-20 p-10 md:h-screen"
+        id="about"
+      >
         <div className="md:w-1/3 p-10 flex justify-center items-center h-full">
           <img
             src="../assets/dp.jpg"
@@ -34,13 +37,13 @@ export default function Home() {
             With a passion for crafting innovative solutions, I have honed my
             skills in various programming languages, including PHP, MySQL, HTML,
             CSS, JAVA, C#, React Native, React JS, Next JS, and JavaScript. My
-            expertise extends across Mobile App Development, Web Application
-            Development, and Desktop Application Development.
+            expertise extends across Mobile App Development, Web Application,
+            and Desktop Application Development.
           </p>
         </div>
       </div>
       <div
-        className="w-full flex md:flex-row flex-col md:p-20 p-10"
+        className="w-full flex md:flex-row flex-col md:p-20 p-10 md:h-screen"
         id="services"
       >
         <div className="flex flex-col items-center justify-center gap-10 py-5">
@@ -90,7 +93,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full flex md:flex-row flex-col md:p-20 p-10">
+      <div className="w-full flex md:flex-row flex-col md:p-20 p-10 md:h-screen">
         <div className="md:w-1/3 p-10 flex justify-center items-center h-full">
           <iframe
             src="https://lottie.host/?file=e55e4b6f-e662-4a43-90c5-52591bcdf712/s8ZoznAIP1.lottie"
@@ -139,7 +142,7 @@ export default function Home() {
             </div>
             <div className="flex gap-5">
               <a
-                href="callto:94775500325"
+                href="tel:+94775500325"
                 className="flex flex-col justify-center items-center gap-5 hover:no-underline border p-5 rounded-xl hover:font-bold h-32 w-44"
               >
                 <PhoneIcon className="h-10 w-10" />
