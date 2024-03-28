@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </div>
       <h1 className="my-5 text-gray-500 text-center">
-        Sadev Kaveesha &copy; 2023
+        Sadev Kaveesha &copy; {new Date().getFullYear()}
       </h1>
     </main>
   );
