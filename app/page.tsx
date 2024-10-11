@@ -149,11 +149,11 @@ export default function Home() {
                 <p>+94 77 5500 325</p>
               </a>
               <a
-                href="mailto:info@sadev.me"
+                href="mailto:hello@sadev.me"
                 className="flex flex-col justify-center items-center gap-5 hover:no-underline border p-5 rounded-xl hover:font-bold h-32 w-44"
               >
                 <EnvelopeIcon className="h-10 w-10" />
-                <p>info@sadev.me</p>
+                <p>hello@sadev.me</p>
               </a>
             </div>
           </div>
